@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/ahish/Desktop/Assignment-3/FULLADDER/fulladder1bit.xst" -ofn "/home/ahish/Desktop/Assignment-3/FULLADDER/fulladder1bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 fulladder1bit.ngc fulladder1bit.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o fulladder1bit_map.ncd fulladder1bit.ngd fulladder1bit.pcf 
+par -w -intstyle ise -ol high -t 1 fulladder1bit_map.ncd fulladder1bit.ncd fulladder1bit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fulladder1bit.twx fulladder1bit.ncd -o fulladder1bit.twr fulladder1bit.pcf 

@@ -1,0 +1,29 @@
+Command line:
+   testbenchripple16bit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  40865
+
+Sat Sep 28 19:34:01 2019
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 181.649 Meg
+
+ Total Signals          : 135
+ Total Nets             : 78
+ Total Signal Drivers   : 40
+ Total Blocks           : 23
+ Total Primitive Blocks : 17
+ Total Processes        : 46
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 191
+Total Line Count : 55
+
+ Total Simulation Time: 0.01 sec
+
+ Current Memory Usage: 257.151 Meg
+
+Sat Sep 28 19:34:45 2019
+

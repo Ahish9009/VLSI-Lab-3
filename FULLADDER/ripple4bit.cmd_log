@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ahish/Desktop/Assignment-3/FULLADDER/ripple4bit.xst" -ofn "/home/ahish/Desktop/Assignment-3/FULLADDER/ripple4bit.syr" 
+xst -intstyle ise -ifn "/home/ahish/Desktop/Assignment-3/FULLADDER/ripple4bit.xst" -ofn "/home/ahish/Desktop/Assignment-3/FULLADDER/ripple4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 ripple4bit.ngc ripple4bit.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ripple4bit_map.ncd ripple4bit.ngd ripple4bit.pcf 
+par -w -intstyle ise -ol high -t 1 ripple4bit_map.ncd ripple4bit.ncd ripple4bit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ripple4bit.twx ripple4bit.ncd -o ripple4bit.twr ripple4bit.pcf 
