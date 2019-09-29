@@ -1,7 +1,7 @@
 Release 13.4 par O.87xd (lin64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
-ahish-VirtualBox::  Sun Sep 29 16:46:58 2019
+ahish-VirtualBox::  Mon Sep 30 00:41:54 2019
 
 par -w -intstyle ise -ol high -t 1 lookahead4bit_map.ncd lookahead4bit.ncd
 lookahead4bit.pcf 
@@ -54,7 +54,7 @@ Finished initial Timing Analysis.  REAL time: 1 secs
 
 Starting Placer
 Total REAL time at the beginning of Placer: 1 secs 
-Total CPU  time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 0 secs 
 
 Phase 1.1  Initial Placement Analysis
 Phase 1.1  Initial Placement Analysis (Checksum:c3) REAL time: 2 secs 
@@ -147,7 +147,7 @@ All signals are completely routed.
 Total REAL time to PAR completion: 6 secs 
 Total CPU time to PAR completion: 4 secs 
 
-Peak Memory Usage:  559 MB
+Peak Memory Usage:  558 MB
 
 Placement: Completed - No errors found.
 Routing: Completed - No errors found.

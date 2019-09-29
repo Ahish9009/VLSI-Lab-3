@@ -31,6 +31,40 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="lookahead16bit.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="lookahead16bit.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="lookahead16bit.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="lookahead16bit.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="lookahead16bit.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="lookahead16bit.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="lookahead16bit.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="lookahead16bit.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="lookahead16bit.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="lookahead16bit.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lookahead16bit.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="lookahead16bit.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="lookahead16bit.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="lookahead16bit.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="lookahead16bit.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="lookahead16bit.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="lookahead16bit.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="lookahead16bit.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="lookahead16bit.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="lookahead16bit_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="lookahead16bit_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="lookahead16bit_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="lookahead16bit_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="lookahead16bit_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="lookahead16bit_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lookahead16bit_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lookahead16bit_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="lookahead16bit_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="lookahead16bit_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lookahead16bit_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="lookahead16bit_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="lookahead16bit_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="lookahead16bit_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lookahead16bit_xst.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="lookahead4bit.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="lookahead4bit.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="lookahead4bit.lso"/>
@@ -38,17 +72,14 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="lookahead4bit.ngc"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="lookahead4bit.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="lookahead4bit.ngr"/>
-    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="lookahead4bit.pad"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="lookahead4bit.par" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="lookahead4bit.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lookahead4bit.prj"/>
-    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="lookahead4bit.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="lookahead4bit.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="lookahead4bit.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="lookahead4bit.twr" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="lookahead4bit.twx" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="lookahead4bit.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XPI" xil_pn:name="lookahead4bit.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="lookahead4bit.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="lookahead4bit_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="lookahead4bit_guide.ncd" xil_pn:origination="imported"/>
@@ -56,14 +87,9 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="lookahead4bit_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="lookahead4bit_map.ncd" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="lookahead4bit_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lookahead4bit_map.xrpt"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lookahead4bit_ngdbuild.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="lookahead4bit_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="lookahead4bit_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lookahead4bit_par.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="lookahead4bit_summary.html"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="lookahead4bit_summary.xml"/>
-    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="lookahead4bit_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lookahead4bit_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbenchlookahead4bit_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testbenchlookahead4bit_isim_beh.exe"/>
@@ -104,15 +130,19 @@
     <transform xil_pn:end_ts="1569756419" xil_pn:in_ck="-3213048040817708642" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1569756419">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="lookahead4bit.v"/>
       <outfile xil_pn:name="testbenchlookahead4bit.v"/>
     </transform>
     <transform xil_pn:end_ts="1569756423" xil_pn:in_ck="-3213048040817708642" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="708762160982766469" xil_pn:start_ts="1569756419">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
@@ -157,23 +187,22 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569755804" xil_pn:in_ck="-7464749287527467137" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-2681962283487366130" xil_pn:start_ts="1569755795">
+    <transform xil_pn:end_ts="1569790802" xil_pn:in_ck="-4911132835901067279" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-2738874393247683487" xil_pn:start_ts="1569790794">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="lookahead4bit.lso"/>
-      <outfile xil_pn:name="lookahead4bit.ngc"/>
+      <outfile xil_pn:name="lookahead16bit.lso"/>
+      <outfile xil_pn:name="lookahead16bit.ngc"/>
+      <outfile xil_pn:name="lookahead16bit.ngr"/>
+      <outfile xil_pn:name="lookahead16bit.prj"/>
+      <outfile xil_pn:name="lookahead16bit.stx"/>
+      <outfile xil_pn:name="lookahead16bit.syr"/>
+      <outfile xil_pn:name="lookahead16bit.xst"/>
+      <outfile xil_pn:name="lookahead16bit_xst.xrpt"/>
       <outfile xil_pn:name="lookahead4bit.ngr"/>
-      <outfile xil_pn:name="lookahead4bit.prj"/>
-      <outfile xil_pn:name="lookahead4bit.stx"/>
-      <outfile xil_pn:name="lookahead4bit.syr"/>
-      <outfile xil_pn:name="lookahead4bit.xst"/>
-      <outfile xil_pn:name="lookahead4bit_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
@@ -181,52 +210,48 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1569755810" xil_pn:in_ck="5902162388500545249" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1050700577029595778" xil_pn:start_ts="1569755804">
+    <transform xil_pn:end_ts="1569790808" xil_pn:in_ck="5249741339071333429" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3908036963765990065" xil_pn:start_ts="1569790802">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-      <outfile xil_pn:name="lookahead4bit.bld"/>
-      <outfile xil_pn:name="lookahead4bit.ngd"/>
-      <outfile xil_pn:name="lookahead4bit_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="lookahead16bit.bld"/>
+      <outfile xil_pn:name="lookahead16bit.ngd"/>
+      <outfile xil_pn:name="lookahead16bit_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1569755816" xil_pn:in_ck="5902162388500545250" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1569755810">
+    <transform xil_pn:end_ts="1569790813" xil_pn:in_ck="8141089713002767959" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1569790808">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
-      <outfile xil_pn:name="lookahead4bit.pcf"/>
-      <outfile xil_pn:name="lookahead4bit_map.map"/>
-      <outfile xil_pn:name="lookahead4bit_map.mrp"/>
-      <outfile xil_pn:name="lookahead4bit_map.ncd"/>
-      <outfile xil_pn:name="lookahead4bit_map.ngm"/>
-      <outfile xil_pn:name="lookahead4bit_map.xrpt"/>
-      <outfile xil_pn:name="lookahead4bit_summary.xml"/>
-      <outfile xil_pn:name="lookahead4bit_usage.xml"/>
+      <outfile xil_pn:name="lookahead16bit.pcf"/>
+      <outfile xil_pn:name="lookahead16bit_map.map"/>
+      <outfile xil_pn:name="lookahead16bit_map.mrp"/>
+      <outfile xil_pn:name="lookahead16bit_map.ncd"/>
+      <outfile xil_pn:name="lookahead16bit_map.ngm"/>
+      <outfile xil_pn:name="lookahead16bit_map.xrpt"/>
+      <outfile xil_pn:name="lookahead16bit_summary.xml"/>
+      <outfile xil_pn:name="lookahead16bit_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1569755830" xil_pn:in_ck="-8036369605186523397" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1569755816">
+    <transform xil_pn:end_ts="1569790825" xil_pn:in_ck="-6888812957752265687" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1569790813">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
-      <outfile xil_pn:name="lookahead4bit.ncd"/>
-      <outfile xil_pn:name="lookahead4bit.pad"/>
-      <outfile xil_pn:name="lookahead4bit.par"/>
-      <outfile xil_pn:name="lookahead4bit.ptwx"/>
-      <outfile xil_pn:name="lookahead4bit.unroutes"/>
-      <outfile xil_pn:name="lookahead4bit.xpi"/>
-      <outfile xil_pn:name="lookahead4bit_pad.csv"/>
-      <outfile xil_pn:name="lookahead4bit_pad.txt"/>
-      <outfile xil_pn:name="lookahead4bit_par.xrpt"/>
+      <outfile xil_pn:name="lookahead16bit.ncd"/>
+      <outfile xil_pn:name="lookahead16bit.pad"/>
+      <outfile xil_pn:name="lookahead16bit.par"/>
+      <outfile xil_pn:name="lookahead16bit.ptwx"/>
+      <outfile xil_pn:name="lookahead16bit.unroutes"/>
+      <outfile xil_pn:name="lookahead16bit.xpi"/>
+      <outfile xil_pn:name="lookahead16bit_pad.csv"/>
+      <outfile xil_pn:name="lookahead16bit_pad.txt"/>
+      <outfile xil_pn:name="lookahead16bit_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1569755830" xil_pn:in_ck="5902162388500545118" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1569755826">
+    <transform xil_pn:end_ts="1569790825" xil_pn:in_ck="-4582014171755557681" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1569790822">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
-      <outfile xil_pn:name="lookahead4bit.twr"/>
-      <outfile xil_pn:name="lookahead4bit.twx"/>
+      <outfile xil_pn:name="lookahead16bit.twr"/>
+      <outfile xil_pn:name="lookahead16bit.twx"/>
     </transform>
   </transforms>
 

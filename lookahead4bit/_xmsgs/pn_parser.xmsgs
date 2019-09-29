@@ -11,8 +11,5 @@
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ahish/Desktop/Assignment-3/lookahead4bit/lookahead16bit.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ahish/Desktop/Assignment-3/lookahead4bit/lookahead4bit.v&quot; into library work</arg>
-</msg>
-
 </messages>
 
