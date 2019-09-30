@@ -2,9 +2,9 @@ Command line:
    testbenchlookahead4bit_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  52297
+     -socket  44225
 
-Sun Sep 29 16:57:05 2019
+Mon Sep 30 12:13:44 2019
 
 
  Elaboration Time: 0.01 sec
@@ -25,5 +25,5 @@ Total Line Count : 36
 
  Current Memory Usage: 257.016 Meg
 
-Sun Sep 29 17:00:40 2019
+Mon Sep 30 12:13:58 2019
 

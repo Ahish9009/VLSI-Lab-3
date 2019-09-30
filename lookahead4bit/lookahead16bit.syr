@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Reading design: lookahead16bit.prj
@@ -224,12 +224,10 @@ Design Statistics
 # IOs                              : 50
 
 Cell Usage :
-# BELS                             : 31
-#      GND                         : 1
-#      LUT2                        : 6
-#      LUT3                        : 3
-#      LUT4                        : 17
-#      MUXF5                       : 4
+# BELS                             : 65
+#      LUT3                        : 13
+#      LUT4                        : 36
+#      MUXF5                       : 16
 # IO Buffers                       : 50
 #      IBUF                        : 33
 #      OBUF                        : 17
@@ -240,8 +238,8 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-5 
 
- Number of Slices:                       14  out of   4656     0%  
- Number of 4 input LUTs:                 26  out of   9312     0%  
+ Number of Slices:                       26  out of   4656     0%  
+ Number of 4 input LUTs:                 49  out of   9312     0%  
  Number of IOs:                          50
  Number of bonded IOBs:                  50  out of    232    21%  
 
@@ -276,7 +274,7 @@ Speed Grade: -5
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 15.054ns
+   Maximum combinational path delay: 15.496ns
 
 Timing Detail:
 --------------
@@ -284,44 +282,44 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 174 / 5
+  Total number of paths / destination ports: 683 / 17
 -------------------------------------------------------------------------
-Delay:               15.054ns (Levels of Logic = 12)
-  Source:            b<3> (PAD)
-  Destination:       c_out (PAD)
+Delay:               15.496ns (Levels of Logic = 12)
+  Source:            a<1> (PAD)
+  Destination:       s<15> (PAD)
 
-  Data Path: b<3> to c_out
+  Data Path: a<1> to s<15>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             3   1.106   0.603  b_3_IBUF (b_3_IBUF)
-     LUT2:I0->O            1   0.612   0.509  A1/P<3>1 (A1/P<3>)
-     LUT4:I0->O            1   0.612   0.387  A4/c_out1366_SW0 (N27)
-     LUT4:I2->O            1   0.612   0.360  A4/c_out1366 (A4/c_out1366)
-     LUT4:I3->O            1   0.612   0.426  A4/c_out13100 (A4/c_out13100)
-     LUT4:I1->O            1   0.612   0.387  A4/c_out168_SW0_SW0 (N29)
-     LUT3:I2->O            1   0.612   0.357  A4/c_out168_SW1 (N33)
-     MUXF5:S->O            2   0.641   0.380  A3/c_out1_f5 (s_8_OBUF)
-     MUXF5:S->O            1   0.641   0.357  A4/c_out268_SW0_f5 (N19)
-     MUXF5:S->O            1   0.641   0.426  A4/c_out268_f5 (N2)
-     LUT3:I1->O            2   0.612   0.380  c_out1 (c_out_OBUF)
-     OBUF:I->O                 3.169          c_out_OBUF (c_out)
+     IBUF:I->O             5   1.106   0.690  a_1_IBUF (a_1_IBUF)
+     LUT4:I0->O            1   0.612   0.357  C817 (C817)
+     MUXF5:S->O            1   0.641   0.357  C868_SW1_f5 (N67)
+     MUXF5:S->O            1   0.641   0.357  C8101_SW0_f5 (N65)
+     MUXF5:S->O            4   0.641   0.499  C8134_f5 (C8)
+     MUXF5:S->O            2   0.641   0.449  A3/Mxor_s_Result<2>2_f5 (N14)
+     LUT3:I1->O            2   0.612   0.410  A3/C_3_or00001 (A3/C<3>)
+     LUT3:I2->O            4   0.612   0.499  C121 (C12)
+     MUXF5:S->O            2   0.641   0.449  A4/Mxor_s_Result<2>2_f5 (N8)
+     LUT3:I1->O            2   0.612   0.532  A4/C_3_or00001 (A4/C<3>)
+     LUT3:I0->O            1   0.612   0.357  A4/Mxor_s_Result<3>1 (s_15_OBUF)
+     OBUF:I->O                 3.169          s_15_OBUF (s<15>)
     ----------------------------------------
-    Total                     15.054ns (10.482ns logic, 4.572ns route)
-                                       (69.6% logic, 30.4% route)
+    Total                     15.496ns (10.540ns logic, 4.956ns route)
+                                       (68.0% logic, 32.0% route)
 
 =========================================================================
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 3.85 secs
+Total CPU time to Xst completion: 3.82 secs
  
 --> 
 
 
-Total memory usage is 518984 kilobytes
+Total memory usage is 520720 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   12 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

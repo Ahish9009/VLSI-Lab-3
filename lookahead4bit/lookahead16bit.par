@@ -1,7 +1,7 @@
 Release 13.4 par O.87xd (lin64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
-ahish-VirtualBox::  Mon Sep 30 02:30:15 2019
+ahish-VirtualBox::  Mon Sep 30 12:20:42 2019
 
 par -w -intstyle ise -ol high -t 1 lookahead16bit_map.ncd lookahead16bit.ncd
 lookahead16bit.pcf 
@@ -38,7 +38,7 @@ Design Summary Report:
    Number of External Bidir IOBs                  0
 
 
-   Number of Slices                         15 out of 4656    1%
+   Number of Slices                         27 out of 4656    1%
       Number of SLICEMs                      0 out of 2328    0%
 
 
@@ -57,45 +57,45 @@ Total REAL time at the beginning of Placer: 1 secs
 Total CPU  time at the beginning of Placer: 1 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:825) REAL time: 1 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:b73) REAL time: 1 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:825) REAL time: 1 secs 
+Phase 2.7  Design Feasibility Check (Checksum:b73) REAL time: 1 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:825) REAL time: 1 secs 
+Phase 3.31  Local Placement Optimization (Checksum:b73) REAL time: 1 secs 
 
 Phase 4.2  Initial Clock and IO Placement
-.....
-Phase 4.2  Initial Clock and IO Placement (Checksum:825) REAL time: 1 secs 
+......
+Phase 4.2  Initial Clock and IO Placement (Checksum:b73) REAL time: 1 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:825) REAL time: 1 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:b73) REAL time: 1 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:825) REAL time: 1 secs 
+Phase 6.36  Local Placement Optimization (Checksum:b73) REAL time: 1 secs 
 
 Phase 7.3  Local Placement Optimization
-......
-Phase 7.3  Local Placement Optimization (Checksum:273d5f4) REAL time: 1 secs 
+.....
+Phase 7.3  Local Placement Optimization (Checksum:27a89b5) REAL time: 1 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:273d5f4) REAL time: 1 secs 
+Phase 8.5  Local Placement Optimization (Checksum:27a89b5) REAL time: 1 secs 
 
 Phase 9.8  Global Placement
 ..
-Phase 9.8  Global Placement (Checksum:b321f96) REAL time: 1 secs 
+Phase 9.8  Global Placement (Checksum:14b11353) REAL time: 2 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:b321f96) REAL time: 1 secs 
+Phase 10.5  Local Placement Optimization (Checksum:14b11353) REAL time: 2 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:c4166bf) REAL time: 1 secs 
+Phase 11.18  Placement Optimization (Checksum:17026ba4) REAL time: 2 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:c4166bf) REAL time: 1 secs 
+Phase 12.5  Local Placement Optimization (Checksum:17026ba4) REAL time: 2 secs 
 
-Total REAL time to Placer completion: 1 secs 
+Total REAL time to Placer completion: 2 secs 
 Total CPU  time to Placer completion: 1 secs 
 Writing design to file lookahead16bit.ncd
 
@@ -104,27 +104,27 @@ Writing design to file lookahead16bit.ncd
 Starting Router
 
 
-Phase  1  : 110 unrouted;      REAL time: 4 secs 
+Phase  1  : 216 unrouted;      REAL time: 4 secs 
 
-Phase  2  : 110 unrouted;      REAL time: 4 secs 
+Phase  2  : 216 unrouted;      REAL time: 4 secs 
 
-Phase  3  : 20 unrouted;      REAL time: 4 secs 
+Phase  3  : 35 unrouted;      REAL time: 4 secs 
 
-Phase  4  : 20 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  4  : 35 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
 Updating file: lookahead16bit.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Total REAL time to Router completion: 5 secs 
+Total REAL time to Router completion: 4 secs 
 Total CPU time to Router completion: 4 secs 
 
 Partition Implementation Status

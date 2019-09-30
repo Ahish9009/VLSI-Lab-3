@@ -23,3 +23,8 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 lookahead16
 map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o lookahead16bit_map.ncd lookahead16bit.ngd lookahead16bit.pcf 
 par -w -intstyle ise -ol high -t 1 lookahead16bit_map.ncd lookahead16bit.ncd lookahead16bit.pcf 
 trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lookahead16bit.twx lookahead16bit.ncd -o lookahead16bit.twr lookahead16bit.pcf 
+xst -intstyle ise -ifn "/home/ahish/Desktop/Assignment-3/lookahead4bit/lookahead16bit.xst" -ofn "/home/ahish/Desktop/Assignment-3/lookahead4bit/lookahead16bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 lookahead16bit.ngc lookahead16bit.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o lookahead16bit_map.ncd lookahead16bit.ngd lookahead16bit.pcf 
+par -w -intstyle ise -ol high -t 1 lookahead16bit_map.ncd lookahead16bit.ncd lookahead16bit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml lookahead16bit.twx lookahead16bit.ncd -o lookahead16bit.twr lookahead16bit.pcf 

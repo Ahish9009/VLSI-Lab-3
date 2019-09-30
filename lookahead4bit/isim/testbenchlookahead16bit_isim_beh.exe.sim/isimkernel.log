@@ -1,0 +1,29 @@
+Command line:
+   testbenchlookahead16bit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49227
+
+Mon Sep 30 12:22:25 2019
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 181.67 Meg
+
+ Total Signals          : 61
+ Total Nets             : 150
+ Total Signal Drivers   : 46
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 53
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 263
+Total Line Count : 62
+
+ Total Simulation Time: 0.01 sec
+
+ Current Memory Usage: 257.171 Meg
+
+Mon Sep 30 12:23:11 2019
+

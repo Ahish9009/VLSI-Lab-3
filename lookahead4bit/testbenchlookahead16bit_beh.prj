@@ -1,3 +1,4 @@
 verilog work "lookahead4bit.v"
-verilog work "testbenchlookahead4bit.v"
+verilog work "lookahead16bit.v"
+verilog work "testbenchlookahead16bit.v"
 verilog work "/opt/Xilinx/13.4/ISE_DS/ISE//verilog/src/glbl.v"
