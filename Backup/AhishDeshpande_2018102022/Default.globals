@@ -40,8 +40,6 @@ set init_mmmc_file {Default.view}
 set init_oa_search_lib {}
 set init_pwr_net {VDD}
 set init_verilog {fulladder1bit_netlist.v}
-set init_verilog {ripple4bit_netlist.v}
-set init_verilog {ripple16bit_netlist.v}
 set lsgOCPGainMult 1.000000
 set pegDefaultResScaleFactor 1.000000
 set pegDetailResScaleFactor 1.000000

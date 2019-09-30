@@ -5,13 +5,13 @@ Relinquished control to SimVision...
 ncsim> 
 ncsim> database -open waves -into waves.shm -default
 Created default SHM database waves
-ncsim> probe -create -shm testbenchfulladder1bit.A testbenchfulladder1bit.B testbenchfulladder1bit.C0 testbenchfulladder1bit.C1 testbenchfulladder1bit.S
+ncsim> probe -create -shm testbenchlookahead4bit.a testbenchlookahead4bit.b testbenchlookahead4bit.c_in testbenchlookahead4bit.c_out testbenchlookahead4bit.s
 Created probe 1
 ncsim> run
-Simulation interrupted at 932274 NS + 0
+Simulation interrupted at 1046484 NS + 0
 ncsim> ^C
 ncsim> exit
 ...Regained control from SimVision
 -------------------------------------
-ncsim: Memory Usage - 36.4M program + 180.1M data = 216.5M total (220.1M Peak)
-ncsim: CPU Usage - 1.0s system + 0.8s user = 1.8s total (45.2s, 4.0% cpu)
+ncsim: Memory Usage - 36.4M program + 184.2M data = 220.6M total (224.2M Peak)
+ncsim: CPU Usage - 5.4s system + 2.1s user = 7.5s total (184.9s, 4.0% cpu)
