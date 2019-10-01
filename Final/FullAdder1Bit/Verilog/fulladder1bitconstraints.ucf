@@ -1,0 +1,6 @@
+net 'C0' loc='R17';
+net 'A' loc='N17';
+net 'B' loc='L13';
+net 'S' loc='R4';
+net 'C1' loc='F4';
+
